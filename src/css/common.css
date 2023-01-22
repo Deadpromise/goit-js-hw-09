@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  margin-top: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px 10px;
+
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+
+  font-size: 20px;
+}
+.value {
+  display: block;
+}
+.label {
+  display: block;
+}
+
+.field:not(:first-child) {
+  margin-left: 20px;
+}
